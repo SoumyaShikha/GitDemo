@@ -174,3 +174,5 @@ mongoimport -d datbase_name -c collection_name file_name
 Export collection without id:
 -----------------------------
 >mongo mongodb://localhost:27017/simplekart --quiet --eval "db.users.find({}, {_id:0}).forEach(printjson);" > users.json
+test3
+test5
